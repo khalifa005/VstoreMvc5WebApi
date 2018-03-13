@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vstore", "Vstore\Vstore.csproj", "{0F3EDE93-EAD6-454E-9232-49D76AA0A5FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F3EDE93-EAD6-454E-9232-49D76AA0A5FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F3EDE93-EAD6-454E-9232-49D76AA0A5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F3EDE93-EAD6-454E-9232-49D76AA0A5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F3EDE93-EAD6-454E-9232-49D76AA0A5FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD819E76-935A-451C-86D6-937200C844A3}
+	EndGlobalSection
+EndGlobal

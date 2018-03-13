@@ -1,0 +1,40 @@
+﻿
+@model IEnumerable<Vstore.Models.Movie>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+
+<div class=" container">
+
+
+
+
+
+
+
+    @foreach (var m in Model)
+            {
+
+
+
+        
+        <div class="col-lg-4 " style="text-align:  center">
+            <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <h1>@m.Name</h1>
+            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+
+
+
+
+    }
+
+
+
+
+        </div>
+
